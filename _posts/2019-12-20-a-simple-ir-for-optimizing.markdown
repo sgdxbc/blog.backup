@@ -1,10 +1,8 @@
 ---
-layout: post
 title:  一种便于进行优化的程序表示形式
 date:   2019-12-20 23:38:58 +0800
 categories: weaver
-tags: python 编译器
-author: sgdxbc
+tags: Python 编译器
 excerpt_separator: <!-- more -->
 ---
 > 涉及循环的程序（对我来说）太过于复杂，本文不做讨论。

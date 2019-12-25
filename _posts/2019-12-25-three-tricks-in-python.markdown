@@ -1,12 +1,13 @@
 ---
 title: Python奇技淫巧三则
 date: 2019-12-25 14:38
-author: sgdxbc
 categories: python
 tags: Python 不记下来明天就忘了
 excerpt_separator: <!-- more -->
-hero_image: /assets/Izumi.Chiaki.full.911114.jpg
-hero_height: is-large
+header:
+  overlay_image: /assets/Izumi.Chiaki.full.911114.jpg
+  overlay_filter: rgba(0, 0, 0, 0.5)
+  show_overlay_excerpt: false
 ---
 
 [如何获取列表中第一个满足某个条件的值](https://stackoverflow.com/a/8534381)

@@ -18,26 +18,86 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Sun Guangda
+title: 将sgd向右下方平移可以得到xbc
+subtitle: Sun Guangda
 email: sgdxbc@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sgdxbc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-# theme: bulma-clean-theme
-remote_theme: chrisrhymes/bulma-clean-theme
-plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
+remote_theme: "mmistakes/minimal-mistakes@4.17.2"
 
-paginate: 5
-paginate_path: "/blog/page:num/"
+# Outputting
+# permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: Asia/Shanghai
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+
+author:
+  name   : "Guangda Sun"
+  avatar : "/assets/59077595.jfif"
+  bio    : "Student, programming."
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://sgdxbc.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sgdxbc"
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+    - year-archive
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name
+    tag: /tags/:name
+
+repository: sgdxbc/sgdxbc.github.io
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+      classes: wide
+  - scope:
+      path: ""
+      type: pages
+    values:
+      classes: wide
 
 # Exclude from processing.
 # The following items will not be processed, by default.
