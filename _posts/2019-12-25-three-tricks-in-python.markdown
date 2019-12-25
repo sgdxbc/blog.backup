@@ -4,6 +4,9 @@ date: 2019-12-25 14:38
 author: sgdxbc
 categories: python
 tags: Python 不记下来明天就忘了
+excerpt_separator: <!-- more -->
+hero_image: /assets/Izumi.Chiaki.full.911114.jpg
+hero_height: is-large
 ---
 
 [如何获取列表中第一个满足某个条件的值](https://stackoverflow.com/a/8534381)
@@ -12,6 +15,8 @@ tags: Python 不记下来明天就忘了
 first_42 = next((x for x in my_list if x == 42), None)
 # 如果不存在42，first_42取值为None
 ```
+
+<!-- more -->
 
 ----
 
