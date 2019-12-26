@@ -20,6 +20,7 @@
 
 title: 将sgd向右下方平移可以得到xbc
 subtitle: Sun Guangda
+name: sgdxbc
 email: sgdxbc@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
