@@ -5,6 +5,8 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
+  - title: "About"
+    url: /about/
   - title: "Repo"
-    url: https://github.com/sgdxbc/sgdxbc.github.io
+    url: https://github.com/sgdxbc/sgdxbc.github.io/
  
