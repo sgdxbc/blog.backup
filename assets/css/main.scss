@@ -28,3 +28,9 @@ $base0f: #d33682 !default;
   padding: 20vmin 0;
 }
 
+.pagination {
+  display: table;
+  margin: 0 auto;
+  float: none;
+  width: fit-content;
+}
