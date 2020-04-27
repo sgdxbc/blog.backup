@@ -3,7 +3,7 @@ title: 关于TeaScript的原始想法
 date: 2020-04-27 14:27
 categories: thoughts
 tags: TeaScript JavaScript 脑内编程
-excerpt: <!-- more -->
+excerpt_separator: <!-- more -->
 ---
 
 TeaScript是一门编译到JavaScript，心智模型类似于简化的JavaScript（ES5）的脚本语言。如果说CoffeeScript是企图将JavaScript「Ruby化」，那么TeaScript
