@@ -2,8 +2,8 @@
 title: 「Weaver设计文档」一、需求概述和管线模型
 date: 2020-03-23 16:35
 categories: weaver
-tag: Python 文档
-excerpt_separator: <!-- more -->
+tags: Python 文档
+excerpt_separator: <!-- more -->s
 ---
 
 程序员都知道，最想写文档的那一刻，必然是代码最写不下去的那一刻。
