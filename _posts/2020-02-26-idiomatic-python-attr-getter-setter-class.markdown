@@ -2,7 +2,7 @@
 title: Python「属性」类的最佳实践
 date: 2020-01-27 11:41
 categories: python
-tag: Python 不记下来明天就忘了
+tags: Python 不记下来明天就忘了
 excerpt_separator: <!-- more -->
 ---
 
