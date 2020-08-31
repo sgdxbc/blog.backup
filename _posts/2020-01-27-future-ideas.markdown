@@ -1,7 +1,7 @@
 ---
 title: 如果我能分身该多好
 date: 2020-01-27 11:41
-categories: self
+categories: dreams
 tag: 杂谈
 excerpt_separator: <!-- more -->
 ---

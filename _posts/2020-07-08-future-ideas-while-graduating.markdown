@@ -1,7 +1,7 @@
 ---
 title: 毕业设计
 date: 2020-07-08 11:09
-categories: self
+categories: dreams
 tag: 杂谈
 excerpt_separator: <!-- more -->
 ---
