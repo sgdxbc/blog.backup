@@ -1,6 +1,8 @@
 ---
 ---
 
+@charset "utf-8";
+
 /* solarized light syntax highlighting (base16) */
 $base00: #fafafa !default;
 $base01: #073642 !default;
@@ -25,8 +27,6 @@ $base0f: #d33682 !default;
 }
 
 $sans-serif: 'Noto Serif CJK SC', 'STZhongSong', 'SimSun', sans-serif;
-
-@charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
